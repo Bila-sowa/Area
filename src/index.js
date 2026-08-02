@@ -1,4 +1,7 @@
-const items = document.querySelectorAll("[data-reveal]");
+const items = [
+    ...document.querySelectorAll("[data-reveal]"),
+    ...document.querySelectorAll("[data-reveal-banner]")
+];
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
