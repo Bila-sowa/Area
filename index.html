@@ -10,7 +10,7 @@
 </head>
 <body class="bg-white mx-10">
     <header class="h-fit">
-        <div class="relative h-18 flex justify-between items-center">
+        <div class="relative h-18 mb-18 flex justify-between items-center">
             <a href="#" class="font-DM-sans font-medium text-3xl tracking-[-5%] leading-[120%]">Area</a>
             <nav class="fixed left-1/2 -translate-x-1/2 z-10 backdrop-blur-xl rounded-[30px] px-6 py-4 flex gap-7">
                 <a href="#" class="font-DM-sans font-bold text-sm tracking-[-2.5%] leading-[1.4] transition duration-500 hover:text-accent-5">Benefits</a>
@@ -18,14 +18,14 @@
                 <a href="#" class="font-DM-sans font-bold text-sm tracking-[-2.5%] leading-[1.4] transition duration-500 hover:text-accent-5">How-to</a>
                 <a href="#" class="font-DM-sans font-bold text-sm tracking-[-2.5%] leading-[1.4] transition duration-500 hover:text-accent-5">Contact Us</a>
             </nav>
-            <a href="#" class="bg-accent-1 tracking-[-2.5%] leading-[1.4] font-bold text-white px-[22px] py-[14px] rounded-full text-sm flex gap-1 items-center transition duration-300 hover:bg-accent-3 hover:items-start">
+            <a href="#" class="bg-accent-1 tracking-[-2.5%] leading-[1.4] font-bold font-DM-sans text-[14px] text-white px-[22px] py-[14px] rounded-full flex gap-1 items-center transition duration-300 hover:bg-accent-3 hover:items-start">
                 Learn more
                 <svg aria-hidden="true" width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.01037 4.9934V1.05184L5.64939 1.09142L0.735155 6.01131L0 5.27615L4.91423 0.361923L4.96513 1.00094H1.0066V0L6 0.0113101V4.9934H5.01037Z" fill="white"/>
                 </svg>
             </a>
         </div>
-        <div class="flex items-center flex-col" data-reveal>
+        <div class="h-[730px] flex flex-col items-center justify-between overload-hidden mb-50" data-reveal>
             <h1 class="font-crimson-text text-[160px] tracking-[-4.25%] leading-[0.9]">Browse everything</h1>
             <img class="select-none hidden xl:block" src="./src/images/desktop.png" data-reveal-banner>
             <img class="select-none hidden md:block xl:hidden" src="./src/images/tablet.png" data-reveal-banner>
@@ -33,8 +33,8 @@
         </div>
     </header>
     <main>
-        <section class="mt-[50px] h-[250px] border-b border-accent-7" data-reveal>
-            <span class="text-accent-5">Trusted by:</span>
+        <section class="h-[250px] border-b border-accent-7" data-reveal>
+            <span class="text-sm text-accent-5 text-accent-5 tracking-[-0.5%] leading-[1.4]">Trusted by:</span>
             <div class="my-[25px] flex mx-12 justify-between">
                 <img src="./src/images/logo1.png" alt="Logoipsum">
                 <img src="./src/images/logo2.png" alt="Logoipsum">
@@ -46,9 +46,9 @@
         </section>
         <section class="w-full h-[1400px] pb-30" data-reveal>
             <section class="py-20 flex flex-col justify-center border-b border-accent-7">
-                <span class="text-accent-1 text-sm font-DM-sans tracking-[-0.5%] leading-[1.4] my-6">Benefits</span>
+                <span class="text-accent-1 text-[12px] font-DM-sans tracking-[-1%] leading-[1.4] my-6">Benefits</span>
                 <h2 class="font-crimson-text text-[60px] tracking-[-3%] leading-[0.9] my-6">We've cracked the code.</h2>
-                <span class="text-accent-5 my-6 font-medium">Area provides real insights, without the data overload.</span>
+                <span class="text-accent-5 text-sm tracking-[-0.5%] leading-[1.4] my-6">Area provides real insights, without the data overload.</span>
             </section>
             <section class="grid grid-cols-4 gap-5 py-10">
                 <article class="py-10 pr-5 w-[285px] h-[225px] flex flex-col justify-around">
@@ -56,28 +56,28 @@
                         <path d="M5.2425 1.0125C3.8725 2.3925 3.8725 4.6125 5.2425 5.9825L13.7325 14.4625C14.3125 15.0525 14.3125 16.0125 13.7325 16.5825C13.1425 17.1725 12.1925 17.1725 11.6025 16.5825L7.3625 12.3425L8.4225 11.2825L4.8925 7.7425L4.5325 8.1025L3.1225 6.6825C2.7325 6.2925 2.1025 6.2925 1.6925 6.6825L0.2925 8.1025C-0.0975 8.5125 -0.0975 9.1225 0.2925 9.5125L1.6925 10.9225L1.3525 11.2825L4.8925 14.8125L5.9525 13.7525L10.1925 18.0125C11.5625 19.3625 13.7725 19.3625 15.1425 18.0125C16.5125 16.6325 16.5125 14.4125 15.1425 13.0525L6.6525 4.5625C6.0725 3.9725 6.0725 3.0125 6.6525 2.4425C7.2425 1.8525 8.1925 1.8525 8.7825 2.4425L13.0225 6.6825L11.9625 7.7425L15.4925 11.2825L15.8525 10.9225L17.2625 12.3425C17.6525 12.7325 18.2925 12.7325 18.6925 12.3425L20.0925 10.9225C20.4825 10.5125 20.4825 9.9025 20.0925 9.5125L18.6925 8.1025L19.0325 7.7425L15.4925 4.2125L14.4325 5.2725L10.1925 1.0125C8.8225 -0.3375 6.6125 -0.3375 5.2425 1.0125ZM1.0025 8.8025L2.4125 7.3925L3.8325 8.8025L2.4125 10.2225M16.5525 10.2225L17.9725 8.8025L19.3825 10.2225L17.9725 11.6325L16.5525 10.2225Z" fill="black"/>
                     </svg>
                     <h4 class="font-crimson-text tracking-[-3%] text-lg">Amplify Insights</h4>
-                    <p class="w-full text-accent-5 text-sm font-medium">Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic regional growth.</p>
+                    <p class="w-full text-accent-5 text-sm tracking-[-0.5%] leading-[1.4]">Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic regional growth.</p>
                 </article>
                 <article class="py-10 pr-5 w-[285px] h-[225px] flex flex-col justify-around">
                     <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15.9 15.39C15.64 14.59 14.89 14 14 14H13V11C13 10.7348 12.8946 10.4804 12.7071 10.2929C12.5196 10.1054 12.2652 10 12 10H6V8H8C8.26522 8 8.51957 7.89464 8.70711 7.70711C8.89464 7.51957 9 7.26522 9 7V5H11C11.5304 5 12.0391 4.78929 12.4142 4.41421C12.7893 4.03914 13 3.53043 13 3V2.59C15.93 3.77 18 6.64 18 10C18 12.08 17.2 13.97 15.9 15.39ZM9 17.93C5.05 17.44 2 14.08 2 10C2 9.38 2.08 8.78 2.21 8.21L7 13V14C7 14.5304 7.21071 15.0391 7.58579 15.4142C7.96086 15.7893 8.46957 16 9 16M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z" fill="black"/>
                     </svg>
                     <h4 class="font-crimson-text tracking-[-3%] text-lg">Control Your Global Presence</h4>
-                    <p class="w-full text-accent-5 text-sm font-medium">Manage and track satellite offices, ensuring consistent performance and streamlined operations everywhere.</p>
+                    <p class="w-full text-accent-5 text-sm tracking-[-0.5%] leading-[1.4]">Manage and track satellite offices, ensuring consistent performance and streamlined operations everywhere.</p>
                 </article>
                 <article class="py-10 pr-5 w-[285px] h-[225px] flex flex-col justify-around">
                     <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 3C9.06087 3 10.0783 3.42143 10.8284 4.17157C11.5786 4.92172 12 5.93913 12 7C12 8.06087 11.5786 9.07828 10.8284 9.82843C10.0783 10.5786 9.06087 11 8 11C6.93913 11 5.92172 10.5786 5.17157 9.82843C4.42143 9.07828 4 8.06087 4 7C4 5.93913 4.42143 4.92172 5.17157 4.17157C5.92172 3.42143 6.93913 3 8 3ZM8 13C10.67 13 16 14.34 16 17V19H0V17C0 14.34 5.33 13 8 13ZM15.76 3.36C17.78 5.56 17.78 8.61 15.76 10.63L14.08 8.94C14.92 7.76 14.92 6.23 14.08 5.05L15.76 3.36ZM19.07 0C23 4.05 22.97 10.11 19.07 14L17.44 12.37C20.21 9.19 20.21 4.65 17.44 1.63L19.07 0Z" fill="black"/>
                     </svg>
                     <h4 class="font-crimson-text tracking-[-3%] text-lg">Remove Language Barriers</h4>
-                    <p class="w-full text-accent-5 text-sm font-medium">Adapt to diverse markets with built-in localization for clear communication and enhanced user experience.</p>
+                    <p class="w-full text-accent-5 text-sm tracking-[-0.5%] leading-[1.4]">Adapt to diverse markets with built-in localization for clear communication and enhanced user experience.</p>
                 </article>
                 <article class="py-10 pr-5 w-[285px] h-[225px] flex flex-col justify-around">
                     <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3 14L3.5 14.07L8.07 9.5C7.89 8.85 8.06 8.11 8.59 7.59C9.37 6.8 10.63 6.8 11.41 7.59C11.94 8.11 12.11 8.85 11.93 9.5L14.5 12.07L15 12C15.18 12 15.35 12 15.5 12.07L19.07 8.5C19 8.35 19 8.18 19 8C19 7.46957 19.2107 6.96086 19.5858 6.58579C19.9609 6.21071 20.4696 6 21 6C21.5304 6 22.0391 6.21071 22.4142 6.58579C22.7893 6.96086 23 7.46957 23 8C23 8.53043 22.7893 9.03914 22.4142 9.41421C22.0391 9.78929 21.5304 10 21 10C20.82 10 20.65 10 20.5 9.93L16.93 13.5C17 13.65 17 13.82 17 14C17 14.5304 16.7893 15.0391 16.4142 15.4142C16.0391 15.7893 15.5304 16 15 16C14.4696 16 13.9609 15.7893 13.5858 15.4142C13.2107 15.0391 13 14.5304 13 14L13.07 13.5L10.5 10.93C10.18 11 9.82 11 9.5 10.93L4.93 15.5L5 16C5 16.5304 4.78929 17.0391 4.41421 17.4142C4.03914 17.7893 3.53043 18 3 18C2.46957 18 1.96086 17.7893 1.58579 17.4142C1.21071 17.0391 1 16.5304 1 16C1 15.4696 1.21071 14.9609 1.58579 14.5858C1.96086 14.2107 2.46957 14 3 14Z" fill="black"/>
                     </svg>
                     <h4 class="font-crimson-text tracking-[-3%] text-lg">Visualize Growth</h4>
-                    <p class="w-full text-accent-5 text-sm font-medium">Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
+                    <p class="w-full text-accent-5 text-sm tracking-[-0.5%] leading-[1.4]">Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
                 </article>
             </section>
             <img class="w-screen h-[620px] object-cover select-none rounded-[30px]" src="./src/images/mountains1.jpg" alt="Mountains">
@@ -90,33 +90,33 @@
                 </div>
                 <div>
                     <div class="w-full py-5 pr-20 flex gap-12 border-t border-accent-7">
-                        <span class="font-DM-sans font-bold text-accent-5">01</span>
-                        <span class="text-sm font-DM-sans font-medium">Spot Trends in Seconds: No more digging through numbers.</span>
+                        <span class="font-DM-sans font-bold text-accent-5 tracking-[-0.5%] leading-[1.4]">01</span>
+                        <span class="text-sm font-DM-sans tracking-[-0.5%] leading-[1.4]">Spot Trends in Seconds: No more digging through numbers.</span>
                     </div>
                     <div class="w-full py-5 pr-20 flex gap-12 border-t border-accent-7">
-                        <span class="font-DM-sans font-bold text-accent-5">02</span>
-                        <span class="text-sm font-DM-sans font-medium">Get Everyone on the Same Page: Share easy-to-understand reports with your team.</span>
+                        <span class="font-DM-sans font-bold text-accent-5 tracking-[-0.5%] leading-[1.4]">02</span>
+                        <span class="text-sm font-DM-sans tracking-[-0.5%] leading-[1.4]">Get Everyone on the Same Page: Share easy-to-understand reports with your team.</span>
                     </div>
                     <div class="w-full py-5 pr-20 flex gap-12 border-t border-accent-7">
-                        <span class="font-DM-sans font-bold text-accent-5">03</span>
-                        <span class="text-sm font-DM-sans font-medium">Make Presentations Pop: Interactive maps and dashboards keep your audience engaged.</span>
+                        <span class="font-DM-sans font-bold text-accent-5 tracking-[-0.5%] leading-[1.4]">03</span>
+                        <span class="text-sm font-DM-sans tracking-[-0.5%] leading-[1.4]">Make Presentations Pop: Interactive maps and dashboards keep your audience engaged.</span>
                     </div>
                     <div class="w-full py-5 pr-20 flex gap-12 border-t border-accent-7">
-                        <span class="font-DM-sans font-bold text-accent-5">04</span>
-                        <span class="text-sm font-DM-sans font-medium">Your Global Snapshot: Get a quick, clear overview of your entire operation.</span>
+                        <span class="font-DM-sans font-bold text-accent-5 tracking-[-0.5%] leading-[1.4]">04</span>
+                        <span class="text-sm font-DM-sans tracking-[-0.5%] leading-[1.4]">Your Global Snapshot: Get a quick, clear overview of your entire operation.</span>
                     </div>
                 </div>
-                <a href="#" class="w-[140px] bg-accent-2 leading-4 tracking-[-2.5%] font-bold px-6 py-4 rounded-full text-sm text-center transition duration-500 hover:bg-accent-3 hover:text-white">Learn more</a>
+                <a href="#" class="w-[150px] bg-accent-2 leading-4 tracking-[-2.5%] text-[14px] font-DM-sans leading-[1.4] font-bold px-6 py-4 rounded-full text-sm text-center transition duration-500 hover:bg-accent-3 hover:text-white">Learn more</a>
             </div>
             <img class="w-screen h-[680px] object-cover select-none rounded-[30px]" src="./src/images/cylinders.jpg" alt="Cylinders">
         </section>
         <section class="h-[1200px] pb-30 flex flex-col gap-12" data-reveal>
             <div class="w-full py-20 flex justify-center">
                 <div class="w-[720px] h-[280px] flex flex-col gap-10 justify-between items-center">
-                    <span class="font-DM-sans text-accent-1">Specs</span>
-                    <h2 class="font-crimson-text text-[60px] tracking-[-3%] leading-[0.9] font-medium">Why Choose Area?</h2>
-                    <p class="font-DM-sans font-medium text-accent-6 text-center">You need a solution that keeps up. ThatвЂ™s why we developed Area. A developer-friendly approach to streamline your business. </p>
-                    <a href="#" class="w-[140px] bg-accent-2 leading-4 tracking-[-2.5%] font-bold px-6 py-4 rounded-full text-sm text-center transition duration-500 hover:bg-accent-3 hover:text-white">Discover more</a>
+                    <span class="font-DM-sans text-accent-1 text-[12px] tracking-[-1%] leading-[1.4]">Specs</span>
+                    <h2 class="font-crimson-text text-[60px] tracking-[-3%] leading-[0.9]">Why Choose Area?</h2>
+                    <p class="font-DM-sans text-sm text-accent-6 text-center tracking-[-0.5%] leading-[1.4]">You need a solution that keeps up. ThatвЂ™s why we developed Area. A developer-friendly approach to streamline your business. </p>
+                    <a href="#" class="w-[150px] bg-accent-2 leading-4 tracking-[-2.5%] text-[14px] font-DM-sans leading-[1.4] font-bold px-6 py-4 rounded-full text-sm text-center transition duration-500 hover:bg-accent-3 hover:text-white">Discover more</a>
                 </div>
             </div>
 
@@ -128,27 +128,27 @@
                     <div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#485C11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>Ultra-fast browsing</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Ultra-fast browsing</span>
                         </div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#485C11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>Advanced AI insights</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Advanced AI insights</span>
                         </div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#485C11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>Seamless integration</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Seamless integration</span>
                         </div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#485C11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>Advanced AI insights</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Advanced AI insights</span>
                         </div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#485C11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>Ultra-fast browsing</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Ultra-fast browsing</span>
                         </div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#485C11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>Full UTF-8 support</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Full UTF-8 support</span>
                         </div>
                     </div>
                 </article>
@@ -159,27 +159,27 @@
                         <div>
                             <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                                 <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#485C11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                                <span>Fast browsing</span>
+                                <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Fast browsing</span>
                             </div>
                             <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                                 <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#485C11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                                <span>Basic AI recommendations</span>
+                                <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Basic AI recommendations</span>
                             </div>
                             <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                                 <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#485C11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                                <span>Restricts customization</span>
+                                <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Restricts customization</span>
                             </div>
                             <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                                 <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18M6 6L18 18" stroke="#6F6F6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                                <span>Basic AI insights</span>
+                                <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Basic AI insights</span>
                             </div>
                             <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                                 <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="#485C11" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                                <span>Fast browsing</span>
+                                <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Fast browsing</span>
                             </div>
                             <div class="h-20 px-[30px] py-8 flex gap-2 items-center">
                                 <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18M6 6L18 18" stroke="#6F6F6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                                <span>Potential display errors</span>
+                                <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Potential display errors</span>
                             </div>
                         </div>
                 </article>
@@ -190,27 +190,27 @@
                     <div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18M6 6L18 18" stroke="#6F6F6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>Moderate speeds</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Moderate speeds</span>
                         </div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18M6 6L18 18" stroke="#6F6F6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>No AI assistance</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">No AI assistance</span>
                         </div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18M6 6L18 18" stroke="#6F6F6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>Steep learning curve</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Steep learning curve</span>
                         </div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18M6 6L18 18" stroke="#6F6F6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>No AI assistance</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">No AI assistance</span>
                         </div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center border-b border-accent-7">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18M6 6L18 18" stroke="#6F6F6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>Moderate speeds</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Moderate speeds</span>
                         </div>
                         <div class="h-20 px-[30px] py-8 flex gap-2 items-center">
                             <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 6L6 18M6 6L18 18" stroke="#6F6F6F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                            <span>Partial UTF-8 support</span>
+                            <span class="text-[12px] font-roboto-mono tracking-[-1%] leading-[1.4]">Partial UTF-8 support</span>
                         </div>
                     </div>
                 </article>
@@ -229,27 +229,27 @@
         <section class="h-[630px] flex flex-col gap-20 pt-20 pb-30" data-reveal>
             <div class="flex justify-between h-[50px]">
                 <h2 class="text-[60px] font-crimson-text tracking-[-3%] leading-[0.9]">Map Your Success</h2>
-                <a href="#" class="w-[140px] bg-accent-2 leading-4 tracking-[-2.5%] font-bold px-6 py-4 rounded-full text-sm text-center transition duration-500 hover:bg-accent-3 hover:text-white">Discover more</a>
+                <a href="#" class="w-[150px] bg-accent-2 leading-4 tracking-[-2.5%] text-[14px] font-DM-sans leading-[1.4] font-bold px-6 py-4 rounded-full text-sm text-center transition duration-500 hover:bg-accent-3 hover:text-white">Discover more</a>
             </div>
             <div class="h-[300px] grid grid-cols-3 gap-5">
                 <div class="flex flex-col gap-15 pt-15 pb-[30px] pb-5 h-[300px] border-t border-accent-7">
                     <h2 class="text-[80px] font-DM-sans text-accent-6 tracking-[-4%]">01</h2>
                     <div class="flex flex-col gap-5 justify-between h-[80px]">
-                        <h3 class="text-lg font-crimson-text font-medium tracking-[-3%]">Get Started</h3>
+                        <h3 class="text-lg font-crimson-text tracking-[-3%]">Get Started</h3>
                         <span class="text-sm text-accent-5 font-DM-sans tracking-[-0.5%] leading-[1.4]">With our intuitive setup, you’re up and running in minutes.</span>
                     </div>
                 </div>
                 <div class="flex flex-col gap-15 pt-15 pb-[30px] pb-5 h-[300px] border-t border-accent-7">
                     <h2 class="text-[80px] font-DM-sans text-accent-6 tracking-[-4%]">02</h2>
                     <div class="flex flex-col gap-5 justify-between h-[80px]">
-                        <h3 class="text-lg font-crimson-text font-medium tracking-[-3%]">Customize and Configure</h3>
+                        <h3 class="text-lg font-crimson-text tracking-[-3%]">Customize and Configure</h3>
                         <span class="text-sm text-accent-5 font-DM-sans tracking-[-0.5%] leading-[1.4]">Adapt Area to your specific requirements and preferences.</span>
                     </div>
                 </div>      
                 <div class="flex flex-col gap-15 pt-15 pb-[30px] pb-5 h-[300px] border-t border-accent-7">
                     <h2 class="text-[80px] font-DM-sans text-accent-6 tracking-[-4%]">03</h2>
                     <div class="flex flex-col gap-5 justify-between h-[80px]">
-                        <h3 class="text-lg font-crimson-text font-medium tracking-[-3%]">Grow Your Business</h3>
+                        <h3 class="text-lg font-crimson-text tracking-[-3%]">Grow Your Business</h3>
                         <span class="text-sm text-accent-5 font-DM-sans tracking-[-0.5%] leading-[1.4]">Make informed decisions to exceed your goals.</span>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
         <section class="flex flex-col gap-10 h-[460px] justify-center items-center border-b border-accent-7" data-reveal>
             <h2 class="text-[60px] font-crimson-text tracking-[-3%] leading-[0.9]">Connect with uss</h2>
             <span class="text-sm font-DM-sans text-accent-5 tracking-[-0.5%] leading-[1.4]">Schedule a quick call to learn how Area can turn your regional data into a powerful advantage.</span>
-            <a href="#" class="bg-accent-1 leading-4 tracking-[-2.5%] font-bold text-white px-[300px] py-4 rounded-full text-sm flex gap-1 items-center transition duration-300 hover:bg-accent-3 hover:items-start">
+            <a href="#" class="bg-accent-1 leading-[1.4] tracking-[-2.5%] text-[14px] font-DM-sans leading-[1.4] font-bold text-white px-[300px] py-4 rounded-full flex gap-1 items-center transition duration-300 hover:bg-accent-3 hover:items-start">
                 Learn more
                 <svg aria-hidden="true" width="6" height="7" viewBox="0 0 6 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5.01037 4.9934V1.05184L5.64939 1.09142L0.735155 6.01131L0 5.27615L4.91423 0.361923L4.96513 1.00094H1.0066V0L6 0.0113101V4.9934H5.01037Z" fill="white"/>
@@ -273,14 +273,14 @@
     <footer class="h-[250px] pt-10 pb-5 flex flex-col gap-20">
         <div class="h-10 flex items-center">
             <div class="flex gap-12">
-                <a class="font-sm font-bold tracking-[-2.5%] leading-[1.4] h-5" href="#">Benefits</a>
-                <a class="font-sm font-bold tracking-[-2.5%] leading-[1.4] h-5" href="#">Specifications</a>
-                <a class="font-sm font-bold tracking-[-2.5%] leading-[1.4] h-5" href="#">How-to</a>
+                <a class="font-sm font-bold font-DM-sans tracking-[-2.5%] leading-[1.4] h-5 transition duration-500 hover:text-accent-5" href="#">Benefits</a>
+                <a class="font-sm font-bold font-DM-sans tracking-[-2.5%] leading-[1.4] h-5 transition duration-500 hover:text-accent-5" href="#">Specifications</a>
+                <a class="font-sm font-bold font-DM-sans tracking-[-2.5%] leading-[1.4] h-5 transition duration-500 hover:text-accent-5" href="#">How-to</a>
             </div>
         </div> 
         <div class="h-[70px] flex justify-between items-end">
             <div class="flex gap-5 items-end">
-                <img src="./src/images/pageLogo.png" alt>
+                <img src="./src/images/pageLogo.png" alt="Page Logo">
                 <div class="flex gap-3">
                     <span class="text-[12px] text-accent-1 font-roboto-mono tracking-[-1%] leading-[1.4]">© Area.</span>
                     <span class="text-[12px] text-accent-1 font-roboto-mono tracking-[-1%] leading-[1.4]">2025</span>
