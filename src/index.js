@@ -1,3 +1,5 @@
+import "./style.css"
+
 const items = [
     ...document.querySelectorAll("[data-reveal]"),
     ...document.querySelectorAll("[data-reveal-banner]")
