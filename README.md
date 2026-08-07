@@ -3,11 +3,11 @@ Layout of the Area website from the mockup: <a href="https://www.figma.com/commu
 
 <h2>Demo</h2>
 <div align="center">
-    <img width="600" src="./readme/desktop1.webp" alt="desktop demo">
-    <img width="600" src="./readme/desktop2.webp" alt="desktop demo">
-    <img width="600" src="./readme/desktop3.webp" alt="desktop demo">
-    <img width="600" src="./readme/desktop4.webp" alt="desktop demo">
-    <img width="300" src="./readme/mobile1.webp" alt="mobile demo">
+    <img width="600" src="./readme/desktop1.webp" alt="desktop demo"><br><br>
+    <img width="600" src="./readme/desktop2.webp" alt="desktop demo"><br><br>
+    <img width="600" src="./readme/desktop3.webp" alt="desktop demo"><br><br>
+    <img width="600" src="./readme/desktop4.webp" alt="desktop demo"><br><br>
+    <img width="300" src="./readme/mobile1.webp" alt="mobile demo"><br><br>
 </div>
 
 <h2>Stack</h2>
